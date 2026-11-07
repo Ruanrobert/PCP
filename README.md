@@ -7,7 +7,7 @@ O projeto busca transformar processos de controle realizados manualmente em uma 
 ## 📸 Screenshots
 
 ### Visão geral
-![Dashboard PCP Industrial](docs/images/Screenshot_4.png)
+![Dashboard PCP Industrial](docs/images/Screenshot_3.png)
 
 ### Quadro de remessas
 ![Quadro de remessas](docs/images/Screenshot_6.png)
@@ -19,7 +19,7 @@ O projeto busca transformar processos de controle realizados manualmente em uma 
 ![Programação](docs/images/Screenshot_2.png)
 
 ### Importação de Excel
-![Importação de Excel](docs/images/Screenshot_3.png)
+![Importação de Excel](docs/images/Screenshot_4.png)
 
 ## 🚀 Funcionalidades
 
