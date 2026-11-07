@@ -1,0 +1,121 @@
+/* PCP Industrial — tokens do design system e reset base. */
+
+:root {
+  /* Superfícies */
+  --bg: #f3f5f9;
+  --surface: #ffffff;
+  --surface-2: #f8fafc;
+  --surface-3: #eef2f7;
+  --border: #e3e8ef;
+  --border-strong: #cfd7e3;
+
+  /* Texto */
+  --text: #0f1a2b;
+  --text-2: #44536a;
+  --text-3: #74829a;
+  --text-4: #a3aec0;
+
+  /* Barra lateral (grafite) */
+  --side-bg: #0c1322;
+  --side-bg-2: #131c2f;
+  --side-border: #1e2a40;
+  --side-text: #9aa8c0;
+  --side-text-strong: #f1f4f9;
+
+  /* Marca e ações */
+  --primary: #2c56e0;
+  --primary-hover: #2346bd;
+  --primary-50: #edf1fe;
+  --primary-100: #dbe4fd;
+  --accent: #f5a524;
+
+  /* Semânticas */
+  --success: #0e8a5f;
+  --success-50: #e6f6ef;
+  --warning: #a8670b;
+  --warning-50: #fdf3e1;
+  --danger: #cc3434;
+  --danger-hover: #ad2828;
+  --danger-50: #fcebeb;
+  --neutral: #5d6b82;
+  --neutral-50: #eef1f5;
+
+  /* Etapas de produção */
+  --corte: #2c56e0;
+  --corte-50: #edf1fe;
+  --costura: #7347d6;
+  --costura-50: #f2edfd;
+  --montagem: #0b8f86;
+  --montagem-50: #e4f5f3;
+
+  /* Forma */
+  --radius-sm: 6px;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --shadow-xs: 0 1px 2px rgba(15, 26, 43, 0.05);
+  --shadow-sm: 0 1px 3px rgba(15, 26, 43, 0.06), 0 1px 2px rgba(15, 26, 43, 0.04);
+  --shadow-lg: 0 24px 64px rgba(12, 19, 34, 0.24), 0 4px 12px rgba(12, 19, 34, 0.08);
+  --ring: 0 0 0 3px rgba(44, 86, 224, 0.18);
+
+  --font-sans: 'IBM Plex Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Cascadia Mono', Consolas, monospace;
+
+  --sidebar-width: 256px;
+
+  font-family: var(--font-sans);
+  color: var(--text);
+  background: var(--bg);
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 320px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  text-align: left;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
