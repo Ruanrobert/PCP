@@ -28,31 +28,31 @@ O PCP Industrial reúne informações importantes para o planejamento e acompanh
 
 Dashboard com indicadores das remessas ativas, pares planejados, avanço da produção por etapa e próximas entregas.
 
-![Visão geral do PCP Industrial](docs/images/Screenshot_4.png)
+![Visão geral do PCP Industrial](docs/images/visao.png)
 
 ### Quadro de remessas
 
 Tela para cadastrar, consultar, editar e acompanhar remessas, com status e progresso das etapas de produção.
 
-![Quadro de remessas](docs/images/Screenshot_6.png)
+![Quadro de remessas](docs/images/quadro.png)
 
 ### Produção diária
 
 Registro individual da produção por etapa: corte, costura e montagem. Os lançamentos são associados às remessas para acompanhar o avanço produtivo.
 
-![Produção diária](docs/images/Screenshot_1.png)
+![Produção diária](docs/images/produção.png)
 
 ### Programação
 
 Visualização das remessas organizadas por data de entrega, com quantidade de pares planejados, avanço por etapa e saldo a montar.
 
-![Programação de entregas](docs/images/Screenshot_2.png)
+![Programação de entregas](docs/images/programação.png)
 
 ### Importação de Excel
 
 A tela de importação está disponível visualmente, mas o processamento de planilhas ainda está em desenvolvimento. Atualmente, as remessas podem ser cadastradas manualmente.
 
-![Importar Excel](docs/images/Screenshot_3.png)
+![Importar Excel](docs/images/importar.png)
 
 ---
 
