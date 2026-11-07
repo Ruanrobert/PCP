@@ -1,16 +1,91 @@
-# React + Vite
+# PCP Industrial
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema web de Planejamento e Controle da Produção (PCP), desenvolvido para apoiar o acompanhamento de remessas, produção diária e prazos de entrega em uma fábrica de calçados.
 
-Currently, two official plugins are available:
+O projeto busca transformar processos de controle realizados manualmente em uma aplicação centralizada, com indicadores e acompanhamento visual da produção.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Screenshots
 
-## React Compiler
+### Visão geral
+![Dashboard PCP Industrial](docs/images/Screenshot_4.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Quadro de remessas
+![Quadro de remessas](docs/images/Screenshot_6.png)
 
-## Expanding the ESLint configuration
+### Produção diária
+![Produção diária](docs/images/Screenshot_1.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Programação
+![Programação](docs/images/Screenshot_2.png)
+
+### Importação de Excel
+![Importação de Excel](docs/images/Screenshot_3.png)
+
+## 🚀 Funcionalidades
+
+- Dashboard com indicadores de remessas e produção.
+- Cadastro, edição, consulta e exclusão lógica de remessas.
+- Quadro de remessas com status e prazos de entrega.
+- Registro de produção por etapa: Corte, Costura e Montagem.
+- Acompanhamento dos pares produzidos e saldo a montar.
+- Programação de entregas e visualização de remessas pendentes.
+- API para comunicação entre frontend e backend.
+- Persistência de dados em banco SQLite.
+
+> **Em desenvolvimento:** a importação de remessas por planilhas Excel ainda não está implementada.
+
+## 🛠️ Tecnologias
+
+**Frontend**
+- React
+- Vite
+- JavaScript
+- CSS
+
+**Backend**
+- Python
+- FastAPI
+- Uvicorn
+- SQLite
+
+## 🏗️ Arquitetura
+
+- **Frontend:** interface web construída com React e Vite.
+- **Backend:** API REST desenvolvida com FastAPI, responsável pela lógica da aplicação e comunicação com o banco de dados SQLite.
+
+## ▶️ Como executar localmente
+
+### Backend
+
+No terminal:
+
+```powershell
+cd backend
+.\.venv\Scripts\Activate.ps1
+python -m uvicorn main:app --reload --port 8000
+```
+
+A API ficará disponível em `http://127.0.0.1:8000`.
+
+Documentação: `http://127.0.0.1:8000/docs`
+
+### Frontend
+
+Em outro terminal, na raiz do projeto:
+
+```powershell
+npm install
+npm run dev
+```
+
+O Vite exibirá o endereço local da aplicação.
+
+## 📌 Status
+
+MVP em desenvolvimento. As funcionalidades de cadastro e acompanhamento de remessas e produção estão implementadas. Próximas etapas incluem evolução da programação industrial, importação de planilhas e aprimoramento das regras de planejamento.
+
+## 👨‍💻 Autor
+
+**Ruan Robert de Oliveira**
+
+[GitHub](https://github.com/Ruanrobert)
